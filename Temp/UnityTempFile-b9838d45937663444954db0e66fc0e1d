@@ -1,0 +1,300 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:6
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:Library/ScriptAssemblies/MacBLAS.dll
+-r:Library/ScriptAssemblies/Barracuda-editor.dll
+-r:Library/ScriptAssemblies/iOSBLAS.dll
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.4.32f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:Assets/ML-Agents/Plugins/System.IO.Abstractions.dll
+-r:Assets/ML-Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll
+-r:Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Barracuda.dll
+-r:Assets/ML-Agents/Plugins/ProtoBuffer/Google.Protobuf.dll
+-r:Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll
+-r:Assets/ML-Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll
+-r:C:/Users/satyam/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/Users/satyam/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-r:C:/Users/satyam/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_36
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/carAgent.cs
+Assets/cityAcademy.cs
+Assets/cityArea.cs
+Assets/logic.cs
+Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAcademy.cs
+Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DAgent.cs
+Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DDecision.cs
+Assets/ML-Agents/Examples/3DBall/Scripts/Ball3DHardAgent.cs
+Assets/ML-Agents/Examples/BananaCollectors/Scripts/BananaAcademy.cs
+Assets/ML-Agents/Examples/BananaCollectors/Scripts/BananaAgent.cs
+Assets/ML-Agents/Examples/BananaCollectors/Scripts/BananaArea.cs
+Assets/ML-Agents/Examples/BananaCollectors/Scripts/BananaLogic.cs
+Assets/ML-Agents/Examples/Basic/Scripts/BasicAcademy.cs
+Assets/ML-Agents/Examples/Basic/Scripts/BasicAgent.cs
+Assets/ML-Agents/Examples/Basic/Scripts/BasicDecision.cs
+Assets/ML-Agents/Examples/Bouncer/Scripts/BouncerAcademy.cs
+Assets/ML-Agents/Examples/Bouncer/Scripts/BouncerAgent.cs
+Assets/ML-Agents/Examples/Bouncer/Scripts/BouncerBanana.cs
+Assets/ML-Agents/Examples/Crawler/Scripts/CrawlerAcademy.cs
+Assets/ML-Agents/Examples/Crawler/Scripts/CrawlerAgent.cs
+Assets/ML-Agents/Examples/GridWorld/Scripts/GridAcademy.cs
+Assets/ML-Agents/Examples/GridWorld/Scripts/GridAgent.cs
+Assets/ML-Agents/Examples/Hallway/Scripts/HallwayAcademy.cs
+Assets/ML-Agents/Examples/Hallway/Scripts/HallwayAgent.cs
+Assets/ML-Agents/Examples/PushBlock/Scripts/GoalDetect.cs
+Assets/ML-Agents/Examples/PushBlock/Scripts/PushAgentBasic.cs
+Assets/ML-Agents/Examples/PushBlock/Scripts/PushBlockAcademy.cs
+Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidAcademy.cs
+Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidAgent.cs
+Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidArea.cs
+Assets/ML-Agents/Examples/Pyramids/Scripts/PyramidSwitch.cs
+Assets/ML-Agents/Examples/Reacher/Scripts/ReacherAcademy.cs
+Assets/ML-Agents/Examples/Reacher/Scripts/ReacherAgent.cs
+Assets/ML-Agents/Examples/Reacher/Scripts/ReacherDecision.cs
+Assets/ML-Agents/Examples/Reacher/Scripts/ReacherGoal.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/AdjustTrainingTimescale.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/Area.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/CameraFollow.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/FlyCamera.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/GroundContact.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/JointDriveController.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/RandomDecision.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/RayPerception.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/RayPerception2D.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/RayPerception3D.cs
+Assets/ML-Agents/Examples/SharedAssets/Scripts/TargetContact.cs
+Assets/ML-Agents/Examples/Soccer/Scripts/AgentSoccer.cs
+Assets/ML-Agents/Examples/Soccer/Scripts/SoccerAcademy.cs
+Assets/ML-Agents/Examples/Soccer/Scripts/SoccerBallController.cs
+Assets/ML-Agents/Examples/Soccer/Scripts/SoccerFieldArea.cs
+Assets/ML-Agents/Examples/Template/Scripts/TemplateAcademy.cs
+Assets/ML-Agents/Examples/Template/Scripts/TemplateAgent.cs
+Assets/ML-Agents/Examples/Template/Scripts/TemplateDecision.cs
+Assets/ML-Agents/Examples/Tennis/Scripts/HitWall.cs
+Assets/ML-Agents/Examples/Tennis/Scripts/TennisAcademy.cs
+Assets/ML-Agents/Examples/Tennis/Scripts/TennisAgent.cs
+Assets/ML-Agents/Examples/Tennis/Scripts/TennisArea.cs
+Assets/ML-Agents/Examples/Walker/Scripts/WalkerAcademy.cs
+Assets/ML-Agents/Examples/Walker/Scripts/WalkerAgent.cs
+Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpAcademy.cs
+Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpAgent.cs
+Assets/ML-Agents/Scripts/Academy.cs
+Assets/ML-Agents/Scripts/ActionMasker.cs
+Assets/ML-Agents/Scripts/Agent.cs
+Assets/ML-Agents/Scripts/Batcher.cs
+Assets/ML-Agents/Scripts/BCTeacherHelper.cs
+Assets/ML-Agents/Scripts/Brain.cs
+Assets/ML-Agents/Scripts/BrainParameters.cs
+Assets/ML-Agents/Scripts/BroadcastHub.cs
+Assets/ML-Agents/Scripts/Communicator.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/AgentActionProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/AgentInfoProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/BrainParametersProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/CommandProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/CustomAction.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/CustomObservation.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/CustomResetParameters.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/DemonstrationMetaProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/EngineConfigurationProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/EnvironmentParametersProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/Header.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/ResolutionProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/SpaceTypeProto.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityInput.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityMessage.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityOutput.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityRlInitializationInput.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityRlInitializationOutput.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityRlInput.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityRlOutput.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityToExternal.cs
+Assets/ML-Agents/Scripts/CommunicatorObjects/UnityToExternalGrpc.cs
+Assets/ML-Agents/Scripts/Decision.cs
+Assets/ML-Agents/Scripts/Demonstration.cs
+Assets/ML-Agents/Scripts/DemonstrationRecorder.cs
+Assets/ML-Agents/Scripts/DemonstrationStore.cs
+Assets/ML-Agents/Scripts/HeuristicBrain.cs
+Assets/ML-Agents/Scripts/InferenceBrain/ApplierImpl.cs
+Assets/ML-Agents/Scripts/InferenceBrain/BarracudaModelParamLoader.cs
+Assets/ML-Agents/Scripts/InferenceBrain/GeneratorImpl.cs
+Assets/ML-Agents/Scripts/InferenceBrain/ModelParamLoader.cs
+Assets/ML-Agents/Scripts/InferenceBrain/TensorApplier.cs
+Assets/ML-Agents/Scripts/InferenceBrain/TensorGenerator.cs
+Assets/ML-Agents/Scripts/InferenceBrain/TensorNames.cs
+Assets/ML-Agents/Scripts/InferenceBrain/TensorProxy.cs
+Assets/ML-Agents/Scripts/InferenceBrain/TFSharpInferenceEngine.cs
+Assets/ML-Agents/Scripts/InferenceBrain/Utils/Multinomial.cs
+Assets/ML-Agents/Scripts/InferenceBrain/Utils/RandomNormal.cs
+Assets/ML-Agents/Scripts/LearningBrain.cs
+Assets/ML-Agents/Scripts/Monitor.cs
+Assets/ML-Agents/Scripts/PlayerBrain.cs
+Assets/ML-Agents/Scripts/ResetParameters.cs
+Assets/ML-Agents/Scripts/RpcCommunicator.cs
+Assets/ML-Agents/Scripts/SocketCommunicator.cs
+Assets/ML-Agents/Scripts/Startup.cs
+Assets/ML-Agents/Scripts/UnityAgentsException.cs
+Assets/ML-Agents/Scripts/Utilities.cs
+Assets/move.cs
+Assets/RayPercept.cs
+Assets/spawn.cs
+Assets/SpawnRed.cs
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\UnityScript.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2017.4.32f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\Boo.Lang.dll"
+-sdk:4.6
